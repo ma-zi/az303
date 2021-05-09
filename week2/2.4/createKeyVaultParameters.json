@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "secretName": {
+        "value": "AdminPassword"
+      },
+      "secretValue": {
+        "value": "Ver4H4rdP4ssw0rd"
+      },
+      "objectId": {
+          "value": "<your user id>"
+      }
+    }
+  }

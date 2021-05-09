@@ -1,0 +1,22 @@
+{
+    "properties": {
+        "roleName": "RunVMandCreateSupportTicket",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/<your subscription id>"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Support/supportTickets/write",
+                    "Microsoft.Compute/virtualMachines/start/action",
+                    "Microsoft.Compute/virtualMachines/read",
+                    "Microsoft.Compute/virtualMachines/deallocate/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
